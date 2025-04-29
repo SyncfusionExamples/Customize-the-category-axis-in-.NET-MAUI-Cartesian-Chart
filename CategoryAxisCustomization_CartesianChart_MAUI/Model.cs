@@ -8,7 +8,7 @@ namespace CategoryAxisCustomization_CartesianChart_MAUI
 {
 	public class Model
 	{
-		public string Category { get; set; }
+		public string Category { get; set; } = String.Empty;
 		public double Sales { get; set; }
 		public double Year { get; set; }
 	}

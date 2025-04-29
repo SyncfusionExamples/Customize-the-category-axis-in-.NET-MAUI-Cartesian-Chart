@@ -1,9 +1,10 @@
-﻿namespace CategoryAxisCustomization_CartesianChart_MAUI;
-
-public partial class AppShell : Shell
+﻿namespace CategoryAxisCustomization_CartesianChart_MAUI
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

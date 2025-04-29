@@ -1,9 +1,10 @@
 ﻿using Foundation;
 
-namespace CategoryAxisCustomization_CartesianChart_MAUI;
-
-[Register("AppDelegate")]
-public class AppDelegate : MauiUIApplicationDelegate
+namespace CategoryAxisCustomization_CartesianChart_MAUI
 {
-	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate
+    {
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
 }
